@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 def exponential(x, c0, tau, c1):
 	return c0*(1 - np.exp(-x*tau)) + c1
 
-#Water data
+#heavy mineral oil data
 x =[0.0001,
 	0.01,
 	0.02,
@@ -53,7 +53,7 @@ y =[-1.17,
 
 
 '''
-#Heavy mineral oil data
+#Water data
 x = [0.0001,
 0.001,
 0.01,
